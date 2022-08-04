@@ -443,25 +443,16 @@ img {
   column-gap: 10px;
 }
 
-.footer-soc-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 44px;
-  width: 44px;
-  border-radius: 50%;
+.footer .team-soc-link {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.soc-icon {
+footer .soc-icon {
   fill: var(--bgc-white-color);
 }
 
-.footer-soc-link:hover .soc-icon {
-  fill: var(--bgc-white-color);
-}
-.footer-soc-link:hover,
-.footer-soc-link:focus {
+.team-soc-link:hover,
+.team-soc-link:focus {
   background-color: var(--text-acent-color);
 }
 
